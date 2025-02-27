@@ -1,7 +1,7 @@
 import sys
 import time
 # Set this constant to True to trigger OOM, False to prevent it
-TRIGGER_OOM = False  # Change this to False to disable OOM triggering
+TRIGGER_OOM = True # Change this to False to disable OOM triggering
 
 def trigger_oom():
     """Continuously tries to allocate memory until an OutOfMemoryError occurs (unless TRIGGER_OOM is False)."""
