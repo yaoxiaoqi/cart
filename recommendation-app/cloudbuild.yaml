@@ -4,3 +4,4 @@ steps:
 images: ["us-central1-docker.pkg.dev/$PROJECT_ID/sdlc-demo/recommendation-app:latest"]
 options:
   requestedVerifyOption: VERIFIED
+  logging: CLOUD_LOGGING_ONLY
