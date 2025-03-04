@@ -1,6 +1,6 @@
 import sys
 import time
-# Set this constant to True to trigger OOM, False to prevent it
+# Set this constant to  "True" to trigger OOM, False to prevent it
 TRIGGER_OOM = True # Change this to False to disable OOM triggering
 
 def trigger_oom():
